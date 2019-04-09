@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    background: green;
+}
+body{
+    margin-top: 33px;
+    width: 600px;
+    height: 700px;
+    background: rgb(197, 193, 245);
+    margin-left: 600px;
+    
+}
+#pa6{
+    margin-left: 200px;
+}
+#canti{
+    margin-left: 18px;
+}

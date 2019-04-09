@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <main>
+        <label id="tiket">TIKET Nº</label>
+        <input  type="number" size="4" id="pa1">
+        <input  type="number" size="15" id="pa2">
+        <br></br>
+        <label id="mesa">MESA: </label>
+        <input type="number" size="15" id="pa3">
+        <br><br>
+        <label id="cliente">CLIENTE: </label>
+        <input type="text" size="38" id="pa4">
+        <br><br>
+        <label id="dni">DNI:</label>
+        <input type="number" id="pa5">
+        <input type="date" id="pa6">
+        <br><br>
+        <label id="plato">Plato: </label>
+        <select>
+            <option ></option>
+            <option >Chaufa</option>
+            <option >Lomo Saltado</option>
+            <option >Arroz a la Cubana</option>
+            <option >Ceviche</option>
+            <option >Sancochado</option>
+        </select>
+        <header id="caja1">
+        </header>
+        <label id="precio">Precio</label>
+        <input type="number" id="pa7" size="6">
+        <label id="cantidad">Cantidad</label>
+        <input type="number" id="pa8" size="3">
+        <div id="botones">
+                <button id="GUARDAR" onclick="addFila()"><i class="far fa-arrow-alt-circle-right"></i> GUARDAR </button>
+                <button id="ELIMINAR"> <i class="fas fa-trash-alt"></i> ELIMINAR </button>
+                </div>
+
+        <table id="tabla">
+                <th>
+                    <td>Id</td>
+                    <td>Nombre</td>
+                    <td>Precio</td>
+                    <td>Cantidad</td>
+                    <td>Importe</td>
+                </th>
+        </table>
+        
+
+        <script src="javas.js"></script>
+
+    </main>
+    
+</body>
+</html>
